@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geolocalização com Leaflet</title>
+    
+    <!-- Link para a biblioteca Leaflet (CSS) -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <!-- Link para o seu arquivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Localização Atual</h1>
+        <button onclick="getLocation()">Obter Localização</button>
+        <div id="output"></div>
+        
+        <!-- Contêiner para o mapa -->
+        <div id="map" style="height: 400px; margin-top: 20px;"></div>
+    </div>
+
+    <!-- Link para o JavaScript -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script>  <!-- Link para o seu arquivo JavaScript -->
+</body>
+</html>
